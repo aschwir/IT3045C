@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
 using System.Windows.Forms;
 
 namespace gitModule
@@ -15,6 +9,12 @@ namespace gitModule
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Postman isnt avaialbe for visual studio");
+         
         }
     }
 }
